@@ -1,0 +1,10 @@
+create table emp_details
+(
+emp_id int NOT NULL PRIMARY KEY,
+name varchar2(20),
+department varchar2(30),
+year_of_ass int
+);
+desc emp_details
+insert into emp_details values (1 ,'rahul','fiance',2009 );
+select * from emp_details;
